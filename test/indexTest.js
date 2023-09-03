@@ -17,8 +17,8 @@ describe("the <ul> tag", () => {
     // find all direct child <li> elements in the <ul>
     const ul = document.querySelector("ul");
 
-    const hint = "The <ul> should have three <li> elements nested inside";
-    expect(ul.children, hint).to.have.lengthOf(3);
+    const hint = "The <ul> should have four <li> elements nested inside";
+    expect(ul.children, hint).to.have.lengthOf(4);
 
     // check the values of each <li> element
     const [firstLi, secondLi, thirdLi] = ul.children;
